@@ -10,3 +10,14 @@ departmentsRDD = sc.textFile("C:\\data\\departments")
 # Print all rows from the RDD
 for i in departmentsRDD.collect():
     print(i)
+
+""" Output:
+
+2,Fitness
+3,Footwear
+4,Apparel
+5,Golf
+6,Outdoors
+7,Fan Shop
+
+"""
